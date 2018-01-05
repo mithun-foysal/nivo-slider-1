@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'love_story_roughregular';
+    src: url('fonts/love_story_rough-webfont.eot');
+    src: url('fonts/love_story_rough-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/love_story_rough-webfont.woff2') format('woff2'),
+         url('fonts/love_story_rough-webfont.woff') format('woff'),
+         url('fonts/love_story_rough-webfont.ttf') format('truetype'),
+         url('fonts/love_story_rough-webfont.svg#love_story_roughregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{margin:0;padding:0;}
+body{font-family:arial;font-size:14px;line-height:20px;color:#666;background:url(images/background.jpg)repeat fixed}
+.fix {overflow:hidden}
+.main {width:960px;margin:20px auto;display:block;background:#fff }
+.header {}
+.slider {width:960px;background:url(images/slider1.jpg)no-repeat;margin-bottom:25px;}
+.slider_text {color:black;line-height:35px;margin-top:63px;margin-left:221px}
+.slider_text h1 {color:green;line-height:45px;font-size:46px}
+.slider_text h2{}  
+.slider_text p{}
+.maincontent{margin-top:30px}
+.sidebar{width:260px;margin-right:30px;margin-left:px;background:#EDEDED;float:left;padding:20px} 
+.sidebar ul{margin:0;padding:0;list-style:none}
+.sidebar ul li{padding:5px;border-bottom:1px solid #ddd}
+.sidebar ul li a{display:block;color:#666;text-decoration:none}
+.sidebar ul li a:hover{color:#000}
+.sidebar h2{font-weight: normal;
+color: #fff;
+background: #000;
+margin-top: -20px;
+margin-left: -20px;
+padding: 15px 25px;
+margin-bottom: 30px;
+width: 250px;}
+.content {width:590px;padding-right:30px;padding-left:10px;background:white}
+.content h2{font-family: 'love_story_roughregular';margin-bottom:15px;font-weight:normal}
+.content p{margin-bottom:5px} 
+.footer {margin-top:15px;background:#BBBBBB;padding:10px}
+.fix {}
